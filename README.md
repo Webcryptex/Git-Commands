@@ -1,13 +1,21 @@
 # Шпаргалка по консольным командам Git
 
-### Добавляйте свои команды и остальные полезности через `Pull request`.
+## Quick setup  или с чего начать
 
-<!-- 
-*   [Общее](https://github.com/cyberspacedk/Git-commands/tree/master/git#Общее)
-*   [Консольные команды](https://github.com/cyberspacedk/Git-commands/tree/master/git#Консольные-команды)
-*   [Примеры реальной работы](https://github.com/cyberspacedk/Git-commands/tree/master/git#Примеры) -->
+### …or create a new repository on the command line
+echo "# Resume-CV" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Webcryptex/Resume-CV.git
+git push -u origin main
 
+### …or push an existing repository from the command line
 
+git remote add origin https://github.com/Webcryptex/Resume-CV.git
+git branch -M main
+git push -u origin main
 
 ## Общее
 
